@@ -59,4 +59,6 @@ D_ O
 
 As we can see, the flag is hidden within image (the `tail` operand is used to only show the last 10 lines of the files).
 
+---
+
 Flag: `flag{wow!_data_is_cool}`
