@@ -8,4 +8,6 @@ This is a rather easy one compared to the other challengens. As the title says, 
 
 Adding the `From Morse Code` option into the Recipe gives us an output which is our flag.
 
+---
+
 Flag: `FLAGSAMUELMORSEISCOOLBYTHEWAYILIKECHEES`
