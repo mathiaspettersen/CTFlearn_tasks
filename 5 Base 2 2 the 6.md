@@ -18,4 +18,6 @@ CTF{FlaggyWaggyRaggy}
 
 Gives us the flag.
 
+---
+
 Flag: `CTF{FlaggyWaggyRaggy}`
