@@ -4,7 +4,7 @@
 
 ---
 
-In this challenge we are given a string to decode: `Q1RGe0ZsYWdneVdhZ2d5UmFnZ3l9`. There are plenty different ways to decode, but paying attention to the name of this task is key to solving it. It is named: Base 2 2 the 6 == Base2 to the 6 == Base2^6 == **Base64**.
+In this challenge we are given a string to decode: `Q1RGe0ZsYWdneVdhZ2d5UmFnZ3l9`. There are plenty different ways to decode, but paying attention to the name of this task is key to solving it. It is named: Base 2 2 the 6 == Base2 to the 6 == Base2<sup>6>/sup> == **Base64**.
 
 Base64 is a common way of encoding and decoding information, and its hashes usually end with '=' or '==', so it is easily identifiable.
 
