@@ -12,7 +12,7 @@ Add the `From Binary` option into the Recipe, and we have our flag.
 
 ## Solution 2
 
-If you are feeling extra adventorous, you could use the Linux terminal to output the ASCII representation of the bits.
+If you are feeling extra adventurous, you could use the Linux terminal to output the ASCII representation of the bits.
 
 ```bash
 ┌──(root㉿kali)-[~/Documents/ctflearn/The Flag]
