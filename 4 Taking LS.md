@@ -68,5 +68,6 @@ If we use this password on the password protected PDF, we are granted the flag:
 
 ![bilde](https://user-images.githubusercontent.com/70077872/216281338-f8b326f1-5e57-4d6e-96bd-b8c0b7b13a39.png)
 
-Flag: `ABCTF{T3Rm1n4l_is_C00l}`
+---
 
+Flag: `ABCTF{T3Rm1n4l_is_C00l}`
