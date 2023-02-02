@@ -18,7 +18,6 @@ A quick Google search may find us the answer, but one can also do it manually or
 
 And we can collect our flag.
 
+---
+
 Flag: `CTFlearn{th4t_is_why_you_n33d_to_sanitiz3_inputs}`
-
-
-
