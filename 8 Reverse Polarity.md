@@ -19,7 +19,7 @@ If you are feeling extra adventorous, you could use the Linux terminal to output
 └─# echo "obase=16; ibase=2; 01000011010101000100011001111011010000100110100101110100010111110100011001101100011010010111000001110000011010010110111001111101" | bc | xxd -r -p
 CTF{Bit_Flippin}
 ```
-This command conversts from binary to hex, and the pipes `|` the result into xxd which converts the hex to ASCII ("normal" characters).
+This command conversts from binary to hex, and then pipes `|` the result into xxd which converts the hex to ASCII ("normal" characters).
 
 ---
 
