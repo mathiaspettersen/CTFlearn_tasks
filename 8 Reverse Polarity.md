@@ -21,4 +21,6 @@ CTF{Bit_Flippin}
 ```
 This command conversts from binary to hex, and the pipes `|` the result into xxd which converts the hex to ASCII ("normal" characters).
 
+---
+
 Flag: `CTF{Bit_Flippin}`
