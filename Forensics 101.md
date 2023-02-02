@@ -10,7 +10,7 @@ We are firstly greeted with a picture of a minion:
 
 As there is a download button on the page, I choose to download it to see if we can extract some more information out of it. A common tool in Linux to aid in stegonography is `exiftool`. This tool prints all the metadata of the image and visualizes any comments if present at all. `exiftool 95f6edfb66ef42d774a5a34581f19052.jpg` yield this result:
 
-```
+```bash
 ┌──(root㉿kali)-[~/Documents/ctflearn]
 └─# exiftool 95f6edfb66ef42d774a5a34581f19052.jpg 
 ExifTool Version Number         : 12.52
