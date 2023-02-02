@@ -14,7 +14,7 @@ As there is a download button on the page, I choose to download it to see if we 
 
 Based on the results there does not seem like there is any interesting here.
 
-Moving on, we can use the `strings` command which prints all the printable characters in an image, file, or document. This allows us to find hiddens message within an image. Running ´strings 95f6edfb66ef42d774a5a34581f19052.jpg´ yields:
+Moving on, we can use the `strings` command which prints all the printable characters in an image, file, or document. This allows us to find hiddens message within an image. Running `strings 95f6edfb66ef42d774a5a34581f19052.jpg` yields:
 
 ![bilde](https://user-images.githubusercontent.com/70077872/216268750-8eda995d-b259-4efe-a7f1-403a362c6631.png)
 
