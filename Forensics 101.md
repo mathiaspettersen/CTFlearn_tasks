@@ -10,8 +10,6 @@ We are firstly greeted with a picture of a minion:
 
 As there is a download button on the page, I choose to download it to see if we can extract some more information out of it. A common tool in Linux to aid in stegonography is `exiftool`. This tool prints all the metadata of the image and visualizes any comments if present at all. `exiftool 95f6edfb66ef42d774a5a34581f19052.jpg` yield this result:
 
-![bilde](https://user-images.githubusercontent.com/70077872/216268132-86eb8ad0-4536-4172-a142-d908d868c410.png)
-
 ```
 ┌──(root㉿kali)-[~/Documents/ctflearn]
 └─# exiftool 95f6edfb66ef42d774a5a34581f19052.jpg 
@@ -44,7 +42,20 @@ Based on the results there does not seem like there is any interesting here.
 
 Moving on, we can use the `strings` command which prints all the printable characters in an image, file, or document. This allows us to find hiddens message within an image. Running `strings 95f6edfb66ef42d774a5a34581f19052.jpg` yields:
 
-![bilde](https://user-images.githubusercontent.com/70077872/216268750-8eda995d-b259-4efe-a7f1-403a362c6631.png)
+```
+┌──(root㉿kali)-[~/Documents/ctflearn]
+└─# strings 95f6edfb66ef42d774a5a34581f19052.jpg | tail     
+8kF=
+~9%]Tn
+flag{wow!_data_is_cool}
+$lqU
+AG{u
+Xm*CnC
+@'hnQ
+ax+p
+bdQG
+D_ O
+```
 
 As we can see, the flag is hidden within image (the `tail` operand is used to only show the last 10 lines of the files).
 
