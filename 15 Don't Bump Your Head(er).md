@@ -16,11 +16,11 @@ Since we do not know which user agent it want yet, we can look around the websit
 
 Now we have to change our user agent in our request right as we are entering this website. Burpsuite is a great tool to intercept and alter traffic. I'll open Burpsuite, choose Proxy->Intercept->Intercept is on. Then I must make my browser run in "Burpsuite" mode as well ([tutorial](https://portswigger.net/burp/documentation/desktop/external-browser-config/browser-config-firefox)). Once we refresh the website, we see that our user agent is `Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0`, but we want it to be `Sup3rS3cr3tAg3nt`. Let's change this and forward our request:
 
-From this:
+> From this:
 
 ![bilde](https://user-images.githubusercontent.com/70077872/216587158-6c2b196f-cfb3-499e-9fe9-677ad59dcb97.png)
 
-To this:
+> To this:
 
 ![bilde](https://user-images.githubusercontent.com/70077872/216587457-65953ca5-6959-410d-b449-fd16fe073c5d.png)
 
