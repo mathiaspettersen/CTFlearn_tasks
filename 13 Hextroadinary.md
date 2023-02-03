@@ -16,4 +16,4 @@ We are then granted our flag after we press `Calculate XOR`.
 
 ---
 
-Flag: `CTFlearn{c0ded}
+Flag: `CTFlearn{c0ded}`
