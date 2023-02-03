@@ -10,7 +10,6 @@ In this task we are granted with a website for us to bypass the security measure
 
 Since we do not know which user agent it want yet, we can look around the website to see if there is anything interesting. We will start by looking a the code behind the website through Inspect Element (right click + Inspect). We immediately see here that there is a comment containing `Sup3rS3cr3tAg3nt`. Let's assume this is the correct one:
 
-awesomesauce.com
 
 ![bilde](https://user-images.githubusercontent.com/70077872/216586251-e79ce9a9-9e82-4390-ae36-e6646e9aa747.png)
 
