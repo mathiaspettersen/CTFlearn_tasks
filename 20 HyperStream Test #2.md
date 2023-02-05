@@ -2,7 +2,9 @@
 
 **I love the smell of bacon in the morning! ABAAAABABAABBABBAABBAABAAAAAABAAAAAAAABAABBABABBAAAAABBABBABABBAABAABABABBAABBABBAABB**
 
-In this task we are given a weird set of seemingly randowmized As and Bs. As this is a type of challenge I am familiar with, I recognize this as being a `Baconian cipher` which works by making each combination of As and Bs in pairs of 5 mean a letter. 
+---
+
+In this task we are given a weird set of seemingly randowmized As and Bs. As this is a type of challenge I am familiar with, I recognize this as being a `Baconian cipher` which works by making each combination of As and Bs in pairs of 5 mean a letter. THe caption also says they love the smell of bacon, so I think we are on the right path.
 
 For example, the cipher can be divided into: `ABAAA ABABA ABBAB BAABB AABAA AAAAB AAAAA AAABA ABBAB ABBAA AAABB ABBAB ABBAA BAABA BABBA ABBAB BAABB`, and paired with the Baconian cipher shett below:
 
