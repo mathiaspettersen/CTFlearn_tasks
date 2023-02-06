@@ -46,7 +46,7 @@ We can also use `strings`. This program searches for all printable objects withi
 
 ```bash
 ┌──(root㉿kali)-[~/Documents/ctflearn]
-└─# strings RubberDuck.jpg| grep -i "ctf"
+└─# strings RubberDuck.jpg | grep -i "ctf"
 CTFlearn{ILoveJakarta}
 ```
 
