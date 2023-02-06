@@ -12,3 +12,8 @@
 └─# nc thekidofarcrania.com 10001
 
 ```
+
+
+---
+
+Flag: `CTFlearn{d9029a08c55b936cbc9a30_i_wish_real_betting_games_were_like_this!}`
