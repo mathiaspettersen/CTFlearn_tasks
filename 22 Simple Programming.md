@@ -6,7 +6,7 @@
 
 We are given a `data.dat` file, and are to figure out what is stated in the caption. We can first check how many lines are in the document:
 
-```bash
+```python
 ┌──(root㉿kali)-[~/Documents/ctflearn]
 └─# wc -c data.dat                         
 160223 data.dat
@@ -29,7 +29,7 @@ print(count)
 
 In this script we firstly open the data file and read line by line. Then we count the 0s and 1s in each line to see if it is a mulitple of 3 or 1. If it is, the `count` variable adds +1. Then we run the script:
 
-```bash
+```python
 ┌──(root㉿kali)-[~/Documents/ctflearn]
 └─# python3 script.py
 6662
