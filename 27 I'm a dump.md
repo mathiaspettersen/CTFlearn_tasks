@@ -12,7 +12,7 @@ In this task, we are given a text file that is an executable by running `file`:
 file: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=672d1ab79b5c1f063344be7b8edbda2219d8991d, for GNU/Linux 3.2.0, not stripped
 ```
 
-However, when we run it, nothing happens (you might need to add permission before runnning the file: `chmod 700 file`:
+However, when we run it, nothing happens (you might need to add permission before runnning the file: `chmod 700 file`):
 
 ```bash
 ┌──(root㉿kali)-[~/Documents/ctflearn]
